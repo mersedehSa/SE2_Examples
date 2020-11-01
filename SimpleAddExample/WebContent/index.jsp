@@ -1,1 +1,1 @@
-<a href="shoppingCard_Servlet">Add Product</a>
+<a href="shoppingCard_Servlet">Create your shopping list</a>

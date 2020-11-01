@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> Your shopping List: </h1>
+<h1> Your Shopping List: </h1>
 
 <form action="operationprocess.jsp">  
 
@@ -16,36 +16,6 @@
 <input type='submit' value='Remove' name='remPro'><br>
 </form>  
 
-<%--
-<% 
-ShoppingList_Interface ProductsRemote=(ShoppingList_Interface)session.getAttribute("remote"); 
-
-if(request.getParameter("addpro")!=null)
-{
-	String p = request.getParameter("pro");
-	ProductsRemote.addNewProduct(p);
-}
-if(request.getParameter("remPro")!=null)
-{
-	String p = request.getParameter("pro");
-	ProductsRemote.removeProducts(p);
-}
-
-if(ProductsRemote!=null) {
-	
-List<String> allPs= ProductsRemote.getProducts();
-for(String product: allPs)
-{
-	out.println("<br>" + product);
-	
-}
-
-out.println("<br> total Products:" + allPs.size());
-
-}
-
-%>
- --%>
 
 </body>
 </html>
