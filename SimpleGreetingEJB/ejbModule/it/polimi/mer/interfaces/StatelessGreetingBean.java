@@ -1,19 +1,13 @@
-package it.polimi.mer.beans;
-
-import java.util.logging.Level;
-import java.util.logging.Logger;
+package it.polimi.mer.interfaces;
 
 import javax.ejb.Stateless;
 
 @Stateless
 public class StatelessGreetingBean {
-	private final static Logger LOGGER =  
-            Logger.getLogger(Logger.GLOBAL_LOGGER_NAME); 
-public Integer count;
+	public Integer count;
 
 	public StatelessGreetingBean() {
 		setCount(0);
-        LOGGER.log(Level.INFO, "Stateless Constructor is Called"); 
 
 	}
 	
@@ -22,7 +16,7 @@ public Integer count;
 		currentIntance=currentIntance + 1;
 		setCount(currentIntance);
 		
-		return ("This Greeting from Stateless Bean!");
+		return ("This Greeting came from Stateless Bean!");
 	}
 	
 	
@@ -34,6 +28,4 @@ public Integer count;
 		this.count = count;
 	}
 	
-
-
 }

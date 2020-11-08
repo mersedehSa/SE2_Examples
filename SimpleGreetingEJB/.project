@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>SimpleGreeting</name>
+	<name>SimpleGreetingEJB</name>
 	<comment></comment>
 	<projects>
-		<project>SimpleGreetingEJB</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -39,6 +38,5 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.jboss.tools.jst.web.kb.kbnature</nature>
 		<nature>org.jboss.tools.cdi.core.cdinature</nature>
-		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
 </projectDescription>

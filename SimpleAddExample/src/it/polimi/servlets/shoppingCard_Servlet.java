@@ -1,8 +1,7 @@
 package it.polimi.servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.List;
+
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -39,35 +38,9 @@ public class shoppingCard_Servlet extends HttpServlet {
 	         
 			}catch(Exception e) {
 						System.out.println();
-				}//try
-			    
-
-		/*	
+				}
 	
-		if(request.getParameter("addpro")!=null)
-			{
-		
-				products.addNewProduct(theProduct);
-			}
-		if(request.getParameter("remPro")!=null)
-			{
-				products.removeProducts(theProduct);
-			}
-	
-		PrintWriter writer = response.getWriter(); 
-		
-		if(products!=null) {
-			
-			List<String> allPs= products.getProducts();
-			for(String product: allPs)
-			{
-				out.println("<br>" + product);
-		
-			}
-			
-		*/
-	
-	}//	servlet
+	}
 	
 
 	

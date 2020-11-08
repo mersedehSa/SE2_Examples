@@ -5,17 +5,17 @@ import java.util.logging.Logger;
 
 import javax.ejb.Stateful;
 
-import it.polimi.mer.interfaces.StatefulGreeting_Interface;
+import it.polimi.mer.interfaces.StatefulGreeting_InterfaceOLD;
 
 @Stateful
-public class StatefulGreetingBean implements StatefulGreeting_Interface {
+public class StatefulGreetingBeanOLD implements StatefulGreeting_InterfaceOLD {
 	public Integer count=0;
 
 	private final static Logger LOGGER =  
 	            Logger.getLogger(Logger.GLOBAL_LOGGER_NAME); 
 
 
-		public StatefulGreetingBean() {
+		public StatefulGreetingBeanOLD() {
 	        LOGGER.log(Level.INFO, "Stateful Constructor is Called"); 
 
 		}
