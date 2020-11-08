@@ -1,7 +1,6 @@
 package it.polimi.mer.Servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.ejb.EJB;
 import javax.naming.InitialContext;
@@ -34,7 +33,6 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 	
 try {
 	InitialContext ic= new InitialContext();
-	// javax.naming.InitialContext ic = new javax.naming.InitialContext();
     mySFinterface=(StatefulGreeting_Interface) ic.lookup("java:global/SimpleGreeting/StatefulGreetingBean");
 		}catch(Exception e) {
 			System.out.println(); }
@@ -42,7 +40,23 @@ try {
 	
 	String yourName = request.getParameter("yourName"); 
 	
+	//
+	 request.getSession().setAttribute("name",yourName);  
+	 
+	 request.getSession().setAttribute("StatelessBeanMessage",mySLb.greeting());  
+	 request.getSession().setAttribute("StatelessInstanceNumber",System.identityHashCode(mySLb));  
+	 request.getSession().setAttribute("StatelessCount",mySLb.getCount());  
+
+	 request.getSession().setAttribute("StatefulBeanMessage",mySFinterface.greeting());  
+	 request.getSession().setAttribute("StatefulInstanceNumber",System.identityHashCode(mySFinterface));  
+	 request.getSession().setAttribute("StatefulCount",mySFinterface.getCount()); 
+    
+	 request.getRequestDispatcher("/greeting.jsp").forward(request, response);  
+     
+	 
+	//
 	
+	/*
 	PrintWriter writer = response.getWriter(); 
 	writer.println("<html>"); 
 	writer.println("<body>"); 
@@ -67,6 +81,7 @@ try {
 	writer.println("</body>"); 
 	writer.println("</html>"); 
 	writer.close();
+	*/
 }
 
 

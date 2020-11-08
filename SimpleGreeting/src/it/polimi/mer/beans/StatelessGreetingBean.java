@@ -22,7 +22,7 @@ public Integer count;
 		currentIntance=currentIntance + 1;
 		setCount(currentIntance);
 		
-		return ("This message is coming from Stateless Bean an it is Intance:");
+		return ("This Greeting from Stateless Bean!");
 	}
 	
 	

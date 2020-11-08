@@ -23,7 +23,7 @@ public class StatefulGreetingBean implements StatefulGreeting_Interface {
 		public String greeting() {
 			
 			
-			return ("This message is coming from Stateful Bean an it is Intance:");
+			return ("This Greeting is coming from Stateful Bean!");
 		}
 		
 		@Override
