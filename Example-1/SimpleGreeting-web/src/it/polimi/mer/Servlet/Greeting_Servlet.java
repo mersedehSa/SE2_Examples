@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import it.polimi.SE2.mer.beans.StatefulGreeting_Interface;
-import it.polimi.mer.interfaces.StatelessGreetingBean;
+import it.polimi.SE2.mer.interfaces.StatelessGreetingBean;
 
 /**
  * Servlet implementation class Greeting_Servlet
