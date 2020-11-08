@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
     <wb-module deploy-name="SimpleGreetingEA">
+                
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
-        <dependent-module archiveName="SimpleGreeting.war" deploy-path="/" handle="module:/resource/SimpleGreeting/SimpleGreeting">
-            <dependent-object/>
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
+                
         <dependent-module archiveName="SimpleGreetingEJB.jar" deploy-path="/" handle="module:/resource/SimpleGreetingEJB/SimpleGreetingEJB">
+                        
+            <dependent-object/>
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="SimpleGreetingWeb.war" deploy-path="/" handle="module:/resource/SimpleGreetingWeb/SimpleGreetingWeb">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+            
     </wb-module>
+    
 </project-modules>

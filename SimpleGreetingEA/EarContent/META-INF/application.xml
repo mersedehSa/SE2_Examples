@@ -2,12 +2,12 @@
 <application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd" id="Application_ID" version="8">
   <display-name>SimpleGreetingEA</display-name>
   <module>
-    <web>
-      <web-uri>SimpleGreeting.war</web-uri>
-      <context-root>SimpleGreeting</context-root>
-    </web>
+    <ejb>SimpleGreetingEJB.jar</ejb>
   </module>
   <module>
-    <ejb>SimpleGreetingEJB.jar</ejb>
+    <web>
+      <web-uri>SimpleGreetingWeb.war</web-uri>
+      <context-root>SimpleGreetingWeb</context-root>
+    </web>
   </module>
 </application>

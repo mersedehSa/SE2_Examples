@@ -3,8 +3,8 @@
 	<name>SimpleGreetingEA</name>
 	<comment></comment>
 	<projects>
-		<project>SimpleGreeting</project>
 		<project>SimpleGreetingEJB</project>
+		<project>SimpleGreetingWeb</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
