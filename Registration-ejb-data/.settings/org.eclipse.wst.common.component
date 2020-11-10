@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                        
+    
+    
+    
+    
+    <wb-module deploy-name="Registration-ejb-data">
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
+                                                
+        
+        
+        
+        
+        <property name="java-output-path" value="/Registration-ejb-data/build/classes"/>
+                                            
+    
+    
+    
+    
+    </wb-module>
+                    
+
+
+
+
+</project-modules>
