@@ -1,9 +1,10 @@
-package it.polimi.SE2.mer.interfaces;
+package it.polimi.SE2.mer.beans;
 
 import javax.ejb.Stateful;
 
-import it.polimi.SE2.mer.beans.StatefulGreeting_Interface;
+import it.polimi.SE2.mer.interfaces.StatefulGreeting_Interface;
 @Stateful
+
 public class StatefulGreetingBean implements StatefulGreeting_Interface {
 	public Integer count=0;
 

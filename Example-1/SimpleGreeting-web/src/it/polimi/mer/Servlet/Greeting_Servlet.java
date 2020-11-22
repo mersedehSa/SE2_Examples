@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import it.polimi.SE2.mer.beans.StatefulGreeting_Interface;
-import it.polimi.SE2.mer.interfaces.StatelessGreetingBean;
+import it.polimi.SE2.mer.beans.StatelessGreetingBean;
+import it.polimi.SE2.mer.interfaces.StatefulGreeting_Interface;
 
 /**
  * Servlet implementation class Greeting_Servlet
@@ -33,7 +33,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 	
 try {
 	InitialContext ic= new InitialContext();
-    mySFinterface=(StatefulGreeting_Interface) ic.lookup("java:global/SimpleGreetingEA/SimpleGreetingEJB/StatefulGreetingBean!it.polimi.SE2.mer.beans.StatefulGreeting_Interface");
+    mySFinterface=(StatefulGreeting_Interface) ic.lookup("java:global/SimpleGreetingEA/SimpleGreetingEJB/StatefulGreetingBean!it.polimi.SE2.mer.interfaces.StatefulGreeting_Interface");
 		}catch(Exception e) {
 			System.out.println(); }
 	

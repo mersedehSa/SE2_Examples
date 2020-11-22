@@ -1,4 +1,4 @@
-package it.polimi.SE2.mer.interfaces;
+package it.polimi.SE2.mer.beans;
 
 import javax.ejb.Stateless;
 

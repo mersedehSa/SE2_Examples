@@ -1,4 +1,4 @@
-package it.polimi.SE2.mer.beans;
+package it.polimi.SE2.mer.interfaces;
 
 import javax.ejb.Remote;
 
