@@ -1,4 +1,4 @@
-package it.polimi.mer.interfaces;
+package it.polimi.SE2.mer.interfaces;
 
 import java.util.List;
 

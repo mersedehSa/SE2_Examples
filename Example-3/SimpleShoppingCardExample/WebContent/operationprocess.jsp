@@ -1,4 +1,4 @@
-<%@page import="it.polimi.mer.interfaces.ShoppingList_Interface" %>
+<%@page import="it.polimi.SE2.mer.interfaces.ShoppingList_Interface" %>
 <%@page import="java.util.List" %>
 <html>
 <style>

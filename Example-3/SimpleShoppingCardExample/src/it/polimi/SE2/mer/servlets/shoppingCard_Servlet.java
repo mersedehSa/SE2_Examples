@@ -1,4 +1,4 @@
-package it.polimi.servlets;
+package it.polimi.SE2.mer.servlets;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import it.polimi.mer.interfaces.ShoppingList_Interface;
+import it.polimi.SE2.mer.interfaces.ShoppingList_Interface;
 
 /**
  * Servlet implementation class shoppingCard_Servlet

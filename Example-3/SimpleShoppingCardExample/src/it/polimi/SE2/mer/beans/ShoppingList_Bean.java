@@ -1,11 +1,11 @@
-package it.polimi.mer.beans;
+package it.polimi.SE2.mer.beans;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.ejb.Stateful;
 
-import it.polimi.mer.interfaces.ShoppingList_Interface;
+import it.polimi.SE2.mer.interfaces.ShoppingList_Interface;
 
 @Stateful
 public class ShoppingList_Bean implements ShoppingList_Interface {
