@@ -24,11 +24,6 @@ public class AllmyUsers {
     	super();
     }
  
-    /*public User(UserDTO user) {
-    	this.email        = user.getEmail();
-        this.fullname    = user.getFullname();
-        this.password     = user.getPassword();
-	}*/
 
 	public Integer getId() {
         return id;

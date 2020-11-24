@@ -18,6 +18,6 @@ hr {
 <h2>SE2 Demonstrator: Stateful vs Stateless Bean</h2>
 
 <hr>
-<form action="Greeting_Servlet" method="get"> Enter your name: <input type="text" name="yourName" size="20"> <input type="submit" value="Continue" /> </form>
+<form action="Greeting_Servlet" method="post"> Enter your name: <input type="text" name="yourName" size="20"> <input type="submit" value="Continue" /> </form>
 </body>
 </html>

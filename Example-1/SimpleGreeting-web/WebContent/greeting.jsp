@@ -35,7 +35,7 @@ body {
 <div class="container SLbean">
 <p>${StatelessBeanMessage} </p> 
 <p>Object ID is:  ${StatelessInstanceNumber} </p>
-<p>${StatelessCount} other persons have used this object! </p>
+<p>${StatelessCount} person(s) have used this object! </p>
 </div>
 <hr>
 

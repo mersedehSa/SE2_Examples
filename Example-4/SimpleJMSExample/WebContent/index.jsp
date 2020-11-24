@@ -73,10 +73,6 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<a href="MyServ">Proceed to nothing</a>
-<br>
-<a href="HelloWorldMDBServletClient">Proceed to MSJ</a>
-<br>
 
 <form  action="MyServ" method="get">
 <br>Student ID: <input type="text" placeholder="Enter ID"  name="sid"> 
